@@ -1,0 +1,22 @@
+.content-panel {
+  text-align: left;
+}
+
+.content-kicker {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.content-panel h3 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+}
+
+.content-panel p:last-child {
+  margin-top: 10px;
+  color: var(--muted);
+}

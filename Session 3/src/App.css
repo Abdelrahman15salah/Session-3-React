@@ -1,4 +1,18 @@
-.counter {
+main,
+.app-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 24px auto;
+}
+
+.page-card {
+  background: var(--surface);
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +195,4 @@
     right: 0;
     border-right-color: var(--border);
   }
-}
+} */

@@ -1,0 +1,49 @@
+.electrons-shell {
+  width: min(760px, calc(100% - 32px));
+  margin: 24px auto;
+  padding: 28px;
+}
+
+.electrons-header {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.electrons-header h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.electrons-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.electrons-links a {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  color: var(--text);
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.electrons-links a:hover {
+  transform: translateY(-1px);
+  border-color: rgba(15, 118, 110, 0.35);
+  background: var(--accent-soft);
+}
+
+.electrons-content-shell {
+  width: min(760px, calc(100% - 32px));
+  margin: 0 auto 32px;
+}
+
+.electrons-outlet {
+  margin-top: 16px;
+  padding: 24px;
+}

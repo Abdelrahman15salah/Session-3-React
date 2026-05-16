@@ -1,0 +1,9 @@
+.electrons-content-shell {
+  width: min(760px, calc(100% - 32px));
+  margin: 0 auto 32px;
+}
+
+.electrons-outlet {
+  margin-top: 16px;
+  padding: 24px;
+}
