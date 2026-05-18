@@ -14,6 +14,7 @@ import TV from "./Components/Electrons/Contents/TV";
 import Car from "./Components/Electrons/Contents/Car";
 import Phone from "./Components/Electrons/Contents/Phone";
 import Childlayout from "./Components/Electrons/Contents/Childlayout";
+import NotFound from "./Components/NotFound";
 
 let x = createBrowserRouter([
   {
@@ -31,7 +32,7 @@ let x = createBrowserRouter([
         element: <Electrons />,
       },
       {
-        path: "Electrons/",
+        path: "Electrons",
         element: <Childlayout />,
         children: [
           { path: "TV", element: <TV /> },
@@ -39,6 +40,7 @@ let x = createBrowserRouter([
           { path: "Phone", element: <Phone /> },
         ],
       },
+      { path: "*", element: <NotFound /> },
     ],
   },
 ]);
